@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353535;
+    height: 90vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px 60px;
+    }
+
+.container{
+    margin-top: 60px;
+}
+
+.box input[type=email], .box input[type=password], .box input[type=r_password]{
+    padding: 8px;
+    font-size: 16px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.box h1{
+    margin: 15px 5px;
+}
+
+.box p{
+    margin-bottom: 30px;
+}
+
+.box label{
+    margin-bottom: 3px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.box input[type=r_password]{
+    margin-bottom: 20px;
+}
+
+.box input[type=checkbox]{
+    margin-bottom: 30px;
+}
+
+.box .buttons input[type=submit]{
+    font-size: 20px;
+    width: 232px;
+    padding: 7px 0px;
+    border: none;
+    outline: none;
+    background: #4CAF50;
+    opacity: 0.9;
+    color: white;
+}
+
+.box .buttons input[type=submit] :hover{
+    opacity: 1;  
+}
+
+.box .buttons .btn1{
+
+}
+
+.box .buttons input[type=button]{
+    font-size: 20px;
+    width: 232px;
+    padding: 7px 0px;
+    border: none;
+    outline: none;
+    background: #4CAF50;
+    opacity: 0.9;
+    color: white;
+    opacity: 1;  
+}
+
+.box .buttons input[type=button]{
+    background: #f44336;
+    opacity: 1;  
+}
+
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 50px;
+}
